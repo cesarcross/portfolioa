@@ -60,8 +60,6 @@ export const Spotify = styled(FaSpotify)`
 `;
 
 export const Dash = styled.div`
-  border: 2px solid white;
-
   img {
     width: 100%;
   }
