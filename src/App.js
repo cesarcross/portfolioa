@@ -2,12 +2,18 @@ import React from "react";
 
 import "./App.css";
 
-import Sample from "./components/Sample/Sample.component";
+import Intro from "./components/Intro/Intro.component";
+import About from "./components/About/About.component";
+import Portfolio from "./components/Portfolio/Portfolio.component";
+import Contact from "./components/Contact/Contact.component";
 
 const App = () => {
   return (
     <div className="App">
-      <Sample />
+      <Intro />
+      <About />
+      <Portfolio />
+      <Contact />
     </div>
   );
 };
